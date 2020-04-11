@@ -6,12 +6,12 @@ const Navbar = (props) => {
 
             <a className="navbar-brand" href="#">Lyrics.BG</a>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" id="basicExampleNav">
+            <div className="collapse navbar-collapse" id="mainNav">
 
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
