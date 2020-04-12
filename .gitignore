@@ -104,10 +104,10 @@ dist
 .tern-port
 
 # IDE files
-.idea
-.vscode
+.idea/
+.vscode/
 
 # NEXTJS files
-.next
+.next/
 
 
