@@ -8,14 +8,14 @@ const NewsCard = (props) => {
             <div className="card card-cascade wider">
 
                 <div className="view view-cascade gradient-card-header aqua-gradient">
-                    <h2 className="card-header-title">Новини</h2>
+                    <h5 className="card-header-title">Новини</h5>
                 </div>
 
                 <div className="card-body card-body-cascade">
 
                     <ul className="list-group list-group-flush">
                         <ul className="list-group">
-                                <NewsList />
+                                <NewsList news={{}}/>
                         </ul>
                     </ul>
 

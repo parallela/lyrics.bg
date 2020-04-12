@@ -7,7 +7,7 @@ const SearchCard = (props) => {
             <div className="card card-cascade wider">
 
                 <div className="view view-cascade gradient-card-header aqua-gradient">
-                    <h2 className="card-header-title">Търсене</h2>
+                    <h5 className="card-header-title">Търсене</h5>
                 </div>
 
                 <div className="card-body card-body-cascade">
@@ -18,7 +18,7 @@ const SearchCard = (props) => {
                                 <input id="form-lg" className="form-control form-control-lg" type="text" />
                                     <label htmlFor="form-lg">Име на песен</label>
                                 <div className="d-flex justify-content-center">
-                                    <button type="submit" className="btn btn-primary mb-0">Търси</button>
+                                    <button type="submit" className="btn btn-primary mb-0"><i className={"fas fa-search"}></i> Търси</button>
                                 </div>
                             </div>
                         </ul>

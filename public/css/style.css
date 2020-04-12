@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+.image-song-card {
+    width: 256px;
+    height: 256px;
+    position: relative;
+}
+.lyrics-song-bg {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+}
+.lyrics-song-bg .lyrics-image {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+}
+.lyric-container {
+    position: relative;
+    font-size: 20px;
+
+}
+.lyrics {
+    font-size: 20px;
+}

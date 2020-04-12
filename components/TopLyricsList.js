@@ -1,4 +1,5 @@
 import Link from "next/link";
+import propTypes from "prop-types";
 
 const TopLyricsList = (props) => {
     return (
@@ -6,8 +7,13 @@ const TopLyricsList = (props) => {
             <img src={props.lyric.image} width={"32px"} height={"32px"} />
             <Link href={'/artist/[slug]'} as={`/artist/${props.lyric.artist.slug}`}><a className={"h6"}> {props.lyric.artist.name} </a></Link> &rArr;
             <Link href={'/song/[slug]'} as={`/song/${props.lyric.slug}`}><a className={"h6"}> {props.lyric.name} </a></Link>
-            <div class={"w-10"}></div>
+            <div className={"w-10"}></div>
         </li>
     )
 }
+
+TopLyricsList.propTypes = {
+    lyric: propTypes.object.isRequired
+}
+
 export default TopLyricsList;

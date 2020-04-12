@@ -1,6 +1,7 @@
 import Link from "next/link";
+import propTypes from "prop-types";
 
-const NewsList = () => {
+const NewsList = (props) => {
     return (
         <li className="list-group-item">
             <Link href={'/news/[slug]'} as={`/artist/hello_world`}><a
@@ -12,4 +13,9 @@ const NewsList = () => {
         </li>
     )
 }
+
+NewsList.propTypes = {
+    news: propTypes.object.isRequired
+}
+
 export default NewsList;

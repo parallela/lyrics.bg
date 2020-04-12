@@ -36,13 +36,16 @@ const Top5Artist = (props) => {
             <div className="card card-cascade wider">
 
                 <div className="view view-cascade gradient-card-header aqua-gradient">
-                    <h2 className="card-header-title">Топ 5 Артиста</h2>
+                    <h5 className="card-header-title">Топ 5 Артиста</h5>
                 </div>
 
                 <div className="card-body card-body-cascade">
 
                     <ul className="list-group list-group-flush">
                         <ul className="list-group">
+                            {isLoading &&
+                            <i className="fas fa-spinner fa-pulse"></i>
+                            }
                             {!isLoading &&
                             artists.map((value, key) =>
                                 <TopArtistsList artist={value} key={key} />
