@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDE files
+.idea
+.vscode
+
+# NEXTJS files
+.next
+
+
